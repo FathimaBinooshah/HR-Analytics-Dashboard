@@ -1,11 +1,12 @@
 # HR Analytics Dashboard
 
+
 ## Project Overview
 
 This project focuses on building a complete HR Analytics Dashboard using Microsoft Power BI.
 The dashboard helps analyze employee attrition trends, workforce demographics, salary distribution, job satisfaction, and retention-related factors affecting organizational performance.
 
-The dataset includes employee demographics, department details, job roles, income information, attrition status, work experience, and satisfaction metrics.
+The dataset includes employee demographics, department details, job roles, income information, attrition status, work experience, overtime status, and satisfaction metrics.
 
 ---
 
@@ -19,6 +20,7 @@ The main objectives of this dashboard are:
 * Analyze employee attrition trends
 * Analyze workforce demographics
 * Study salary distribution by job role
+* Analyze employee satisfaction levels
 * Build interactive dashboards and filters
 * Generate business insights using visual analytics
 
@@ -35,6 +37,7 @@ Common fields included in the dataset:
 * Job Role
 * Monthly Income
 * Attrition Status
+* Over Time
 * Distance From Home
 * Marital Status
 * Job Satisfaction
@@ -79,7 +82,7 @@ Displays total employees who left the organization.
 
 ### Pie Chart
 
-Purpose: Attrition by Gender
+**Purpose:** Attrition by Gender
 
 Shows:
 
@@ -90,7 +93,7 @@ Shows:
 
 ### Bar Chart
 
-Purpose: Employees by Age Band
+**Purpose:** Employees by Age Band
 
 Shows employee distribution across age categories such as:
 
@@ -104,18 +107,15 @@ Shows employee distribution across age categories such as:
 
 ### Clustered Column Chart
 
-Purpose: Attrition Over Time
+**Purpose:** Attrition based on Over Time
 
-Compares employee attrition status:
-
-* Yes
-* No
+Compares attrition levels between employees working overtime and those who do not.
 
 ---
 
 ### Column Chart
 
-Purpose: Employee Attrition by Distance From Home
+**Purpose:** Employee Attrition by Distance From Home
 
 Analyzes how travel distance impacts employee attrition.
 
@@ -123,20 +123,23 @@ Analyzes how travel distance impacts employee attrition.
 
 ### Horizontal Bar Chart
 
-Purpose: Average Monthly Income by Job Role
+**Purpose:** Average Monthly Income by Job Role
 
 Displays average salary distribution among job roles such as:
 
 * Manager
 * Research Director
 * Healthcare Representative
+* Manufacturing Director
 * Sales Executive
-* Laboratory Technician
+* Human Resources
 * Research Scientist
+* Laboratory Technician
+* Sales Representative
 
 ---
 
-## Table Visual
+### Table Visual
 
 Displays:
 
@@ -148,17 +151,21 @@ Displays:
 
 ---
 
-## Donut Chart
+### Horizontal Bar Chart
 
-Purpose: Attrition Rate %
+**Purpose:** Average Job Satisfaction by Department
 
-Displays percentage of employees who left versus retained employees.
+Displays job satisfaction levels across:
+
+* HR
+* Sales
+* R&D
 
 ---
 
-## Stacked Bar Chart
+### Stacked Bar Chart
 
-Purpose: Attrition by Marital Status
+**Purpose:** Attrition by Marital Status
 
 Shows attrition distribution among:
 
@@ -168,14 +175,25 @@ Shows attrition distribution among:
 
 ---
 
-## Bar Chart
+### Bar Chart
 
-Purpose: Average Years at Company by Attrition
+**Purpose:** Average Years at Company by Attrition
 
 Compares employee tenure between:
 
 * Employees who stayed
 * Employees who left
+
+---
+
+### Donut Chart
+
+**Purpose:** Attrition Rate %
+
+Displays percentage comparison of:
+
+* Attrition = Yes
+* Attrition = No
 
 ---
 
@@ -185,7 +203,13 @@ Added interactive slicer for:
 
 * Department
 
-The slicers dynamically filter all dashboard visuals and improve report interactivity.
+Departments include:
+
+* HR
+* Sales
+* R&D
+
+The slicer dynamically filters all dashboard visuals and improves report interactivity.
 
 ---
 
@@ -223,7 +247,13 @@ Examined employee tenure patterns between retained and exited employees.
 
 ## Job Satisfaction Analysis
 
-Analyzed the relationship between employee satisfaction and attrition.
+Analyzed employee satisfaction levels across departments and its relationship with attrition.
+
+---
+
+## Overtime Impact Analysis
+
+Examined whether overtime contributes significantly to employee attrition.
 
 ---
 
@@ -245,7 +275,7 @@ Contains:
 
 * Attrition by Gender
 * Employees by Age Band
-* Attrition Over Time
+* Attrition based on Over Time
 * Department Filter
 
 ---
@@ -256,8 +286,11 @@ Contains:
 
 * Distance From Home Analysis
 * Salary Analysis
+* Employee Table
+* Job Satisfaction by Department
 * Marital Status Analysis
 * Years at Company Analysis
+* Attrition Rate %
 
 ---
 
@@ -270,6 +303,7 @@ Through this dashboard, users can identify:
 * Departments with poor retention
 * Salary trends affecting turnover
 * Employee satisfaction impact
+* Overtime effects on retention
 * Workforce behavior patterns
 
 ---
@@ -278,6 +312,7 @@ Through this dashboard, users can identify:
 
 * Microsoft Power BI
 * Power Query
+* Data Cleaning Techniques
 * Data Visualization Techniques
 
 ---
@@ -291,6 +326,7 @@ By completing this project, users gain:
 * HR analytics reporting experience
 * Business intelligence understanding
 * Workforce retention analysis skills
+* Interactive dashboard design experience
 
 ---
 
@@ -302,3 +338,5 @@ A fully interactive HR Analytics Dashboard that enables stakeholders to:
 * Improve employee retention strategies
 * Reduce organizational attrition
 * Support HR decision-making using data insights
+* Enhance employee satisfaction strategies
+
