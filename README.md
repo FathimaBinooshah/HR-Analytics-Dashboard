@@ -181,14 +181,11 @@ Compares employee tenure between:
 
 # Interactive Features
 
-Added interactive slicers for:
+Added interactive slicer for:
 
 * Department
-* Gender
-* Job Role
-* Attrition Status
 
-These slicers dynamically filter all dashboard visuals and improve report interactivity.
+The slicers dynamically filter all dashboard visuals and improve report interactivity.
 
 ---
 
