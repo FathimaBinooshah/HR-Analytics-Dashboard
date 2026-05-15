@@ -1,4 +1,5 @@
 # HR Analytics Dashboard
+<img width="1220" height="762" alt="HR data" src="https://github.com/user-attachments/assets/a2169036-e1aa-49fc-b26b-a833bcc0f759" />
 
 
 ## Project Overview
